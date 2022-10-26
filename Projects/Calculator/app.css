@@ -1,0 +1,110 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: 0;
+    transition: all 0.5s ease;
+}
+
+body{
+ font-family: sans-serif;
+}
+
+.calculator{
+    width: 240px;
+}
+
+.keyboard{
+    text-align: center;
+}
+
+.buttons{
+    width: 60px;
+    height: 60px;
+    font-size: 20px;
+}
+
+.buttons.Two{
+width: 120px;
+height: 50px;
+font-size: 20px;
+}
+
+#screen{
+    height: 50px;
+    font-size: 24px;
+}
+
+.screen{
+    width: 236px;
+    border: 1px solid black;
+}
+
+.container{
+    margin-top: 10%;
+    width: 250px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.calculator.dark{
+    border: 2px solid black
+}
+
+
+/* INDEX */
+
+body {
+    background-color: #131316;
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+/* NAVBAR */
+
+
+.navContainer{
+    margin-left: 50%;   
+    transform: translateX(-50%) ;
+    width: 600px;
+    height: 70px;
+    border: 4px solid gray;
+    border-radius: 25px;
+}
+
+.insideNavbar{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding: 15px 45px 15px 45px;  /* top right bottom left */
+    margin: 5 0 0 5;
+    margin-right: 50px;
+}
+
+.navElements{
+    color: red;
+    font-size: medium;
+}
+
+
+@media only screen and (max-width: 1200px) {
+    .navContainer{
+        width: 400px;
+    }
+
+    .insideNavbar{
+        display: flex;
+        text-align: center;
+        justify-content: space-between;
+        padding: 15px 25px 15px 25px;  /* top right bottom left */
+        margin: 5 0 0 5;
+        margin-right: 25px;
+    }
+  }
+
+
+
